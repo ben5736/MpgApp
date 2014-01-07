@@ -1,5 +1,7 @@
 from django.contrib import admin
-from mpg.models import Refuel
+from mpg.models import *
 
 admin.site.register(Refuel)
-# Register your models here.
+admin.site.register(Car)
+admin.site.register(Model)
+admin.site.register(AutoMaker)
